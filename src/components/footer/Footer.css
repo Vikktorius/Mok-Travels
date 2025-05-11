@@ -1,0 +1,87 @@
+/* Footer.css */
+.footer {
+  background: linear-gradient(to right, #e0f2fe, #dbeafe);
+  color: #000;
+  padding: 40px 24px;
+}
+
+.footer-title-lg {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.footer-address-lg {
+  font-size: 1.125rem;
+  line-height: 1.9;
+}
+
+.footer-copy-lg {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 64px;
+  }
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.footer-address {
+  line-height: 1.6;
+}
+
+.footer-subtitle {
+  font-weight: 500;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.footer-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-end {
+  align-items: flex-start;
+}
+
+@media (min-width: 768px) {
+  .footer-end {
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+
+.footer-logo {
+  height: 100px;
+  margin-bottom: 16px;
+}
+
+.footer-copy {
+  font-size: 1.2rem;
+}
