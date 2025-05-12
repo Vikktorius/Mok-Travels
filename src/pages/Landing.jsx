@@ -16,29 +16,29 @@ const tickerImages = Array.from(
 
 const carouselData = [
   {
-    src: "/images/tour1.jpg",
-    title: "Manila",
-    desc: "China is a fascinating destination that offers a perfect blend of ancient history, vibrant culture, and stunning landscapes. From iconic landmarks like the Great Wall and the Forbidden City to modern cities like Shanghai, there’s something for everyone. Nature lovers can explore breathtaking spots like Zhangjiajie and Jiuzhaigou Valley, while food enthusiasts can indulge in authentic Chinese cuisine. The country’s rich traditions, friendly locals, and unique experiences make it a must-visit destination. Whether you’re seeking adventure, history, or relaxation, China has it all!",
-  },
-  {
-    src: "/images/tour2.jpg",
+    src: "/images/China.jpg",
     title: "China",
     desc: "China is a fascinating destination that offers a perfect blend of ancient history, vibrant culture, and stunning landscapes. From iconic landmarks like the Great Wall and the Forbidden City to modern cities like Shanghai, there’s something for everyone. Nature lovers can explore breathtaking spots like Zhangjiajie and Jiuzhaigou Valley, while food enthusiasts can indulge in authentic Chinese cuisine. The country’s rich traditions, friendly locals, and unique experiences make it a must-visit destination. Whether you’re seeking adventure, history, or relaxation, China has it all!",
   },
   {
-    src: "/images/tour3.jpg",
-    title: "Paris",
-    desc: "China is a fascinating destination that offers a perfect blend of ancient history, vibrant culture, and stunning landscapes. From iconic landmarks like the Great Wall and the Forbidden City to modern cities like Shanghai, there’s something for everyone. Nature lovers can explore breathtaking spots like Zhangjiajie and Jiuzhaigou Valley, while food enthusiasts can indulge in authentic Chinese cuisine. The country’s rich traditions, friendly locals, and unique experiences make it a must-visit destination. Whether you’re seeking adventure, history, or relaxation, China has it all!",
+    src: "/images/Carribean.jpg",
+    title: "Carribean",
+    desc: "Carribean is a fascinating destination that offers a perfect blend of ancient history, vibrant culture, and stunning landscapes. From iconic landmarks like the Great Wall and the Forbidden City to modern cities like Shanghai, there’s something for everyone. Nature lovers can explore breathtaking spots like Zhangjiajie and Jiuzhaigou Valley, while food enthusiasts can indulge in authentic Chinese cuisine. The country’s rich traditions, friendly locals, and unique experiences make it a must-visit destination. Whether you’re seeking adventure, history, or relaxation, China has it all!",
   },
   {
-    src: "/images/tour4.jpg",
-    title: "Tokyo",
-    desc: "China is a fascinating destination that offers a perfect blend of ancient history, vibrant culture, and stunning landscapes. From iconic landmarks like the Great Wall and the Forbidden City to modern cities like Shanghai, there’s something for everyone. Nature lovers can explore breathtaking spots like Zhangjiajie and Jiuzhaigou Valley, while food enthusiasts can indulge in authentic Chinese cuisine. The country’s rich traditions, friendly locals, and unique experiences make it a must-visit destination. Whether you’re seeking adventure, history, or relaxation, China has it all!",
+    src: "/images/Dubai.jpg",
+    title: "Dubai",
+    desc: "Dubai is a fascinating destination that offers a perfect blend of ancient history, vibrant culture, and stunning landscapes. From iconic landmarks like the Great Wall and the Forbidden City to modern cities like Shanghai, there’s something for everyone. Nature lovers can explore breathtaking spots like Zhangjiajie and Jiuzhaigou Valley, while food enthusiasts can indulge in authentic Chinese cuisine. The country’s rich traditions, friendly locals, and unique experiences make it a must-visit destination. Whether you’re seeking adventure, history, or relaxation, China has it all!",
   },
   {
-    src: "/images/tour5.jpg",
-    title: "Hongkong",
-    desc: "China is a fascinating destination that offers a perfect blend of ancient history, vibrant culture, and stunning landscapes. From iconic landmarks like the Great Wall and the Forbidden City to modern cities like Shanghai, there’s something for everyone. Nature lovers can explore breathtaking spots like Zhangjiajie and Jiuzhaigou Valley, while food enthusiasts can indulge in authentic Chinese cuisine. The country’s rich traditions, friendly locals, and unique experiences make it a must-visit destination. Whether you’re seeking adventure, history, or relaxation, China has it all!",
+    src: "/images/Mannilla.jpg",
+    title: "Mannilla",
+    desc: "Mannilla is a fascinating destination that offers a perfect blend of ancient history, vibrant culture, and stunning landscapes. From iconic landmarks like the Great Wall and the Forbidden City to modern cities like Shanghai, there’s something for everyone. Nature lovers can explore breathtaking spots like Zhangjiajie and Jiuzhaigou Valley, while food enthusiasts can indulge in authentic Chinese cuisine. The country’s rich traditions, friendly locals, and unique experiences make it a must-visit destination. Whether you’re seeking adventure, history, or relaxation, China has it all!",
+  },
+  {
+    src: "/images/Rwanda.jpg",
+    title: "Rwanda",
+    desc: "Rwanda is a fascinating destination that offers a perfect blend of ancient history, vibrant culture, and stunning landscapes. From iconic landmarks like the Great Wall and the Forbidden City to modern cities like Shanghai, there’s something for everyone. Nature lovers can explore breathtaking spots like Zhangjiajie and Jiuzhaigou Valley, while food enthusiasts can indulge in authentic Chinese cuisine. The country’s rich traditions, friendly locals, and unique experiences make it a must-visit destination. Whether you’re seeking adventure, history, or relaxation, China has it all!",
   },
 ];
 
