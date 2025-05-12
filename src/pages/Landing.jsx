@@ -2,7 +2,13 @@
 import React, { useState, useEffect } from "react";
 import "./Landing.css";
 
-const animatedImages = ["/img1.jpg", "/img2.jpg", "/img3.jpg", "/img4.jpg"];
+const images = [
+  "/images/img1.jpg",
+  "/images/img2.jpg",
+  "/images/img3.jpg",
+  "/images/img4.jpg",
+];
+
 const tickerImages = Array.from(
   { length: 19 },
   (_, i) => `/images/gc${i + 1}.png`
@@ -66,11 +72,20 @@ const testimonials = [
 const Landing = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [testimonialIndex, setTestimonialIndex] = useState(0);
+  const [featuredIndex, setFeaturedIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setTestimonialIndex((prev) => (prev + 1) % testimonials.length);
     }, 5000);
+    return () => clearInterval(interval);
+  }, []);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setFeaturedIndex((prev) => (prev + 1) % images.length);
+      console.log("Featured Index:", next);
+    }, 3000);
     return () => clearInterval(interval);
   }, []);
 
@@ -98,7 +113,6 @@ const Landing = () => {
             We are Committed to Excellent Services
           </h1>
           <p className="hero-paragraph bounce-in-right">
-            {" "}
             We are a World-renowned IATA Travel Agent offering high quality,
             prompt and stress-free service delivery in the travel and tourism
             industry, using modern information technology, highly skilled and
@@ -107,15 +121,20 @@ const Landing = () => {
           <button className="hero-button bounce-in">Talk to us Now ➤</button>
         </div>
 
-        <div className="animated-grid transparent-bg">
-          {animatedImages.map((src, index) => (
-            <img
-              key={index}
-              src={src}
-              alt="Travel"
-              className="animated-img"
-              style={{ "--i": index }}
-            />
+        <div className="image-row">
+          {images.map((src, index) => (
+            <div
+              className={`image-wrapper ${
+                index === featuredIndex ? "featured" : ""
+              }`}
+            >
+              <img
+                key={index}
+                src={src}
+                alt={`img-${index}`}
+                className="image-box"
+              />
+            </div>
           ))}
         </div>
 
