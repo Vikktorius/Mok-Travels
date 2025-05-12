@@ -237,7 +237,7 @@ const Landing = () => {
           See what our customers have to say about us
         </h2>
         <img
-          src="./Line1.svg"
+          src="./line1.jpg"
           alt="Separator"
           className="testimonial-separator"
         />

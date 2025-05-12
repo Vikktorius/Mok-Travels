@@ -158,4 +158,10 @@
     font-size: 1.1rem;
     text-decoration: none;
   }
+
+  .logo {
+    height: 68px;
+    width: auto;
+    transform: translateY(40px);
+  }
 }

@@ -339,7 +339,7 @@
 }
 
 .testimonial-separator {
-  width: 100px;
+  width: 570px;
   margin: 0 auto 30px;
 }
 
@@ -456,8 +456,13 @@
     gap: 1.5rem;
   }
 
-  .services,
   .spreads {
+    width: 100%;
+    box-sizing: border-box;
+    transform: translateY(-60px);
+  }
+
+  .services {
     width: 100%;
     box-sizing: border-box;
   }
@@ -518,10 +523,56 @@
   }
 }
 
+@media (max-width: 320px) {
+  .mobile-menu .contact-button {
+    width: 44%;
+  }
+}
+
 @media (max-width: 480px) {
   .ticker-image {
     height: 24px;
     margin: 0 6px;
+  }
+
+  .testimonial-separator {
+    width: 298px;
+    margin: 0 auto 30px;
+  }
+
+  .spreads {
+    width: 100%;
+    box-sizing: border-box;
+    transform: translateY(-125px);
+  }
+
+  .carousel-caption {
+    font-size: x-small;
+  }
+
+  .certifications-section {
+    transform: translateY(-145px);
+    position: relative;
+    z-index: 2;
+  }
+
+  .testimonial-section {
+    transform: translateX(-46%) translateY(-40px);
+    box-sizing: border-box;
+  }
+
+  .carousel-wrapper {
+    transform: translateY(-140px);
+  }
+
+  .carusel-header {
+    transform: translateY(-116px);
+  }
+
+  .services {
+    width: 100%;
+    box-sizing: border-box;
+    transform: translateY(-111px);
   }
 
   .hero-text-container {
@@ -544,10 +595,7 @@
   }
 
   .travel-image img {
-    width: 126%;
-    height: auto;
-    object-fit: cover;
-    transform: translate(-82px, -12px);
+    display: none;
   }
 }
 
