@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import "./Landing.css";
 
-const animatedImages = ["/img1.svg", "/img2.svg", "/img3.svg", "/img4.svg"];
+const animatedImages = ["/img1.jpg", "/img2.jpg", "/img3.jpg", "/img4.jpg"];
 const tickerImages = Array.from(
   { length: 19 },
   (_, i) => `/images/gc${i + 1}.png`
@@ -10,27 +10,27 @@ const tickerImages = Array.from(
 
 const carouselData = [
   {
-    src: "/images/tour1.png",
+    src: "/images/tour1.jpg",
     title: "Manila",
     desc: "China is a fascinating destination that offers a perfect blend of ancient history, vibrant culture, and stunning landscapes. From iconic landmarks like the Great Wall and the Forbidden City to modern cities like Shanghai, there’s something for everyone. Nature lovers can explore breathtaking spots like Zhangjiajie and Jiuzhaigou Valley, while food enthusiasts can indulge in authentic Chinese cuisine. The country’s rich traditions, friendly locals, and unique experiences make it a must-visit destination. Whether you’re seeking adventure, history, or relaxation, China has it all!",
   },
   {
-    src: "/images/tour2.png",
+    src: "/images/tour2.jpg",
     title: "China",
     desc: "China is a fascinating destination that offers a perfect blend of ancient history, vibrant culture, and stunning landscapes. From iconic landmarks like the Great Wall and the Forbidden City to modern cities like Shanghai, there’s something for everyone. Nature lovers can explore breathtaking spots like Zhangjiajie and Jiuzhaigou Valley, while food enthusiasts can indulge in authentic Chinese cuisine. The country’s rich traditions, friendly locals, and unique experiences make it a must-visit destination. Whether you’re seeking adventure, history, or relaxation, China has it all!",
   },
   {
-    src: "/images/tour3.png",
+    src: "/images/tour3.jpg",
     title: "Paris",
     desc: "China is a fascinating destination that offers a perfect blend of ancient history, vibrant culture, and stunning landscapes. From iconic landmarks like the Great Wall and the Forbidden City to modern cities like Shanghai, there’s something for everyone. Nature lovers can explore breathtaking spots like Zhangjiajie and Jiuzhaigou Valley, while food enthusiasts can indulge in authentic Chinese cuisine. The country’s rich traditions, friendly locals, and unique experiences make it a must-visit destination. Whether you’re seeking adventure, history, or relaxation, China has it all!",
   },
   {
-    src: "/images/tour4.png",
+    src: "/images/tour4.jpg",
     title: "Tokyo",
     desc: "China is a fascinating destination that offers a perfect blend of ancient history, vibrant culture, and stunning landscapes. From iconic landmarks like the Great Wall and the Forbidden City to modern cities like Shanghai, there’s something for everyone. Nature lovers can explore breathtaking spots like Zhangjiajie and Jiuzhaigou Valley, while food enthusiasts can indulge in authentic Chinese cuisine. The country’s rich traditions, friendly locals, and unique experiences make it a must-visit destination. Whether you’re seeking adventure, history, or relaxation, China has it all!",
   },
   {
-    src: "/images/tour5.png",
+    src: "/images/tour5.jpg",
     title: "Hongkong",
     desc: "China is a fascinating destination that offers a perfect blend of ancient history, vibrant culture, and stunning landscapes. From iconic landmarks like the Great Wall and the Forbidden City to modern cities like Shanghai, there’s something for everyone. Nature lovers can explore breathtaking spots like Zhangjiajie and Jiuzhaigou Valley, while food enthusiasts can indulge in authentic Chinese cuisine. The country’s rich traditions, friendly locals, and unique experiences make it a must-visit destination. Whether you’re seeking adventure, history, or relaxation, China has it all!",
   },
@@ -90,7 +90,7 @@ const Landing = () => {
     <section className="landing-section">
       <div className="hero-area">
         <div className="bg-img">
-          <img src="./home.svg" alt="Home" className="landing-img" />
+          <img src="./home.jpg" alt="Home" className="landing-img" />
         </div>
 
         <div className="hero-text-container fade-in transparent-bg">
@@ -136,7 +136,7 @@ const Landing = () => {
       {/* Travel Services Section */}
       <section className="travel-section">
         <div className="travel-image">
-          <img src="./Grp.svg" alt="Travel Graphic" />
+          <img src="./Grp.jpg" alt="Travel Graphic" />
         </div>
 
         <div className="travel-content">
@@ -225,8 +225,8 @@ const Landing = () => {
           </p>
         </div>
         <div className="certifications-logos">
-          <img src="./iata.png" alt="IATA Logo" className="logo1" />
-          <img src="./iata2.png" alt="TICO Logo" className="logo2" />
+          <img src="./iata.jpg" alt="IATA Logo" className="logo1" />
+          <img src="./iata2.jpg" alt="TICO Logo" className="logo2" />
         </div>
       </section>
 
