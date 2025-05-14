@@ -25,7 +25,7 @@ export default function Footer() {
 
           <div className="footer-social">
             <p className="footer-subtitle">Talk to us or Follow us on</p>
-            <p>these Social media Platform</p>
+            <p className="footer-subtitle2">these Social media Platform</p>
             <div className="footer-icons">
               <a href="#" aria-label="Instagram">
                 <img src="./ig.svg" alt="Instagram" />

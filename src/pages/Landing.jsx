@@ -10,7 +10,7 @@ const images = [
 ];
 
 const tickerImages = Array.from(
-  { length: 19 },
+  { length: 20 },
   (_, i) => `/images/gc${i + 1}.png`
 );
 
@@ -134,7 +134,6 @@ const Landing = () => {
           ))}
         </div>
 
-
         <div className="ticker-wrapper transparent-bg">
           <div className="ticker-track">
             {[...tickerImages, ...tickerImages].map((src, index) => (
@@ -227,22 +226,25 @@ const Landing = () => {
           &#10095;
         </button>
       </div>
-      <section className="certifications-section">
-        <div className="certifications-text">
-          <h2>
-            Your Safety and Quality Assured:
-            <br />
-            <span>We are IATA and TICO Certified</span>
-          </h2>
+      <section className="certification">
+        <div className="cert-text">
+          <h1>
+            Your Safety and <br />
+            Quality Assured: <br />
+            <span className="cert-highlight">
+              We are IATA and <br />
+              TICO Certified"
+            </span>
+          </h1>
           <p>
             "We are proudly certified by IATA (International Air Transport
             Association) and TICO (Travel Industry Council of Ontario), ensuring
             the highest standards in travel and consumer protection."
           </p>
         </div>
-        <div className="certifications-logos">
-          <img src="./iata.jpg" alt="IATA Logo" className="logo1" />
-          <img src="./iata2.jpg" alt="TICO Logo" className="logo2" />
+        <div className="cert-logos">
+          <img src="./iata.jpg" alt="IATA Logo" />
+          <img src="./iata2.jpg" alt="TICO Logo" />
         </div>
       </section>
 
