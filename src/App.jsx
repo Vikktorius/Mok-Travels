@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing";
 import About from "./pages/About";
 import Layout from "./components/Layout";
+import ErrorBoundary from "./ErrorBoundary";
 
 const App = () => {
   return (

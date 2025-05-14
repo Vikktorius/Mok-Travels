@@ -34,7 +34,7 @@ const About = () => {
       </div>
 
       <div className="about-image-wrapper">
-        <img src="./gaap.svg" alt="Travelers" className="about-image" />
+        <img src="./gaap.jpg" alt="Travelers" className="about-image" />
       </div>
     </section>
   );

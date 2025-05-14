@@ -121,22 +121,19 @@ const Landing = () => {
           <button className="hero-button bounce-in">Talk to us Now ➤</button>
         </div>
 
-        <div className="image-row">
+        <div className="image-row desktop-only">
           {images.map((src, index) => (
             <div
+              key={index}
               className={`image-wrapper ${
                 index === featuredIndex ? "featured" : ""
               }`}
             >
-              <img
-                key={index}
-                src={src}
-                alt={`img-${index}`}
-                className="image-box"
-              />
+              <img src={src} alt={`img-${index}`} className="image-box" />
             </div>
           ))}
         </div>
+
 
         <div className="ticker-wrapper transparent-bg">
           <div className="ticker-track">
@@ -205,7 +202,7 @@ const Landing = () => {
       {/* Carousel Header */}
       <div className="carusel-header">
         <p>Vacation and tours</p>
-        <h2 className="light-blue">Beautiful Destinations to Explore</h2>
+        <h1 className="light-blue">Beautiful Destinations to Explore</h1>
       </div>
 
       {/* Carousel Section */}

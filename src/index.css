@@ -13,5 +13,10 @@ html, body, #root {
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Archivo', sans-serif;
+}
+
+
 
 
