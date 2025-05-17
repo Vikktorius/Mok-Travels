@@ -15,14 +15,19 @@ export default function Footer() {
             <br />
             ON M3J-2P6
           </address>
+          <div className="talk-to-us">
+            <h3>Contact Us </h3>
+            <a href="tel:+1 416-631-0435">Tel: +1 416-631-0435</a>
+          </div>
         </div>
 
         {/* Email Info */}
         <div className="footer-section2">
           <h2 className="footer-title footer-title-lg">Email us</h2>
-          <p>info@moktravels.com</p>
-          <p>moktravels@hotmail.com</p>
-
+          <div className="mail-section1">
+            <a href="mailto:moktravel@hotmail.com">moktravel@hotmail.com</a>
+            <a href="mailto:info@moktravels.com">info@moktravels.com</a>
+          </div>
           <div className="footer-social">
             <p className="footer-subtitle">Talk to us or Follow us on</p>
             <p className="footer-subtitle2">these Social media Platform</p>
