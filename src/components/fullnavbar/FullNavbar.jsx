@@ -43,10 +43,11 @@ const FullNavBar = () => {
       <nav className="nav-links desktop-only">
         <Link to="/">Home</Link>
         <Link to="/about">About Us</Link>
-       
       </nav>
-
-      <button className="contact-button desktop-only">Contact us</button>
+      <Link to="/contact">
+        {" "}
+        <button className="contact-button desktop-only">Contact us</button>
+      </Link>
     </header>
   );
 };

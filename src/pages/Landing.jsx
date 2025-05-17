@@ -118,7 +118,9 @@ const Landing = () => {
             industry, using modern information technology, highly skilled and
             competent manpower and efficient Staff.
           </p>
-          <button className="hero-button bounce-in">Talk to us Now ➤</button>
+          <a href="tel:+2347035229277" className="hero-button bounce-in">
+            Talk to us Now ➤
+          </a>
         </div>
 
         <div className="image-row desktop-only">
