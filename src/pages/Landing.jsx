@@ -45,8 +45,8 @@ const carouselData = [
 
 const testimonials = [
   {
-    text: "MOK Travel and Tours made our trip seamless and stress-free. Their attention to detail and personalized service ensured we had an unforgettable experience. Highly recommended!",
-    author: "Mrs Taye Aderinto",
+    text: "Wonderful dealing with Mok travel Agency",
+    author: "James Adeniyi",
   },
   {
     text: "I had an amazing vacation planned by MOK. They were professional, responsive, and tailored everything to my needs. 10/10!",
@@ -57,16 +57,16 @@ const testimonials = [
     author: "Ngozi Eze",
   },
   {
-    text: "This agency exceeded all expectations. Every aspect of the trip was planned perfectly and their customer service is exceptional.",
-    author: "Chinedu Akpan",
+    text: "For your tickets booking and hotel reservation, they are very reiable and trustworthy.",
+    author: "Babatunde Faleye",
   },
   {
     text: "From ticketing to tours, MOK Travel delivers top-notch services. I’ll definitely use them again for my next international trip.",
     author: "Abdulrahman Musa",
   },
   {
-    text: "What a great experience! MOK Travel arranged everything smoothly. They truly care about their clients.",
-    author: "Blessing James",
+    text: "Always available to help, very good service.",
+    author: "Michael AyanOba Adeoba",
   },
 ];
 
