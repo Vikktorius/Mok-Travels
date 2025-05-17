@@ -34,7 +34,7 @@ export default function Footer() {
                 <img src="./ig.svg" alt="Instagram" />
               </a>
               <a
-                href="https://web.facebook.com/profile.php?id=61571981116611&sk=about"
+                href="https://www.facebook.com/share/16HDTSNko3/"
                 aria-label="Facebook"
               >
                 <img src="./Facebook.svg" alt="Facebook" />
