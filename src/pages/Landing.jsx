@@ -18,27 +18,27 @@ const carouselData = [
   {
     src: "/images/China.jpg",
     title: "China",
-    desc: "China is a fascinating destination that offers a perfect blend of ancient history, vibrant culture, and stunning landscapes. From iconic landmarks like the Great Wall and the Forbidden City to modern cities like Shanghai, there’s something for everyone. Nature lovers can explore breathtaking spots like Zhangjiajie and Jiuzhaigou Valley, while food enthusiasts can indulge in authentic Chinese cuisine. The country’s rich traditions, friendly locals, and unique experiences make it a must-visit destination. Whether you’re seeking adventure, history, or relaxation, China has it all!",
+    desc: "China offers a captivating mix of ancient wonders and futuristic cities. Explore world-famous sites like the Great Wall, the Forbidden City, and the Terracotta Army. Modern cities like Shanghai and Beijing dazzle with technology, culture, and cuisine. Whether you're a history buff, foodie, or nature enthusiast, China has something unforgettable to offer.",
   },
   {
     src: "/images/Carribean.jpg",
     title: "Carribean",
-    desc: "Carribean is a fascinating destination that offers a perfect blend of ancient history, vibrant culture, and stunning landscapes. From iconic landmarks like the Great Wall and the Forbidden City to modern cities like Shanghai, there’s something for everyone. Nature lovers can explore breathtaking spots like Zhangjiajie and Jiuzhaigou Valley, while food enthusiasts can indulge in authentic Chinese cuisine. The country’s rich traditions, friendly locals, and unique experiences make it a must-visit destination. Whether you’re seeking adventure, history, or relaxation, China has it all!",
+    desc: "The Caribbean is a tropical paradise known for its turquoise waters, white-sand beaches, and laid-back island vibes. Discover diverse cultures, enjoy world-class snorkeling and diving, and dance to the rhythms of calypso and reggae. Ideal for romantic getaways, cruises, and family vacations, the Caribbean is sun-soaked bliss year-round.",
   },
   {
     src: "/images/Dubai.jpg",
     title: "Dubai",
-    desc: "Dubai is a fascinating destination that offers a perfect blend of ancient history, vibrant culture, and stunning landscapes. From iconic landmarks like the Great Wall and the Forbidden City to modern cities like Shanghai, there’s something for everyone. Nature lovers can explore breathtaking spots like Zhangjiajie and Jiuzhaigou Valley, while food enthusiasts can indulge in authentic Chinese cuisine. The country’s rich traditions, friendly locals, and unique experiences make it a must-visit destination. Whether you’re seeking adventure, history, or relaxation, China has it all!",
+    desc: "Dubai is a futuristic city of luxury and innovation, where tradition meets modernity. Marvel at the Burj Khalifa, shop in mega-malls, and experience desert safaris and gold souks. From opulent hotels to cultural heritage sites, Dubai delivers unforgettable adventures with world-class hospitality.",
   },
   {
     src: "/images/Mannilla.jpg",
     title: "Mannilla",
-    desc: "Mannilla is a fascinating destination that offers a perfect blend of ancient history, vibrant culture, and stunning landscapes. From iconic landmarks like the Great Wall and the Forbidden City to modern cities like Shanghai, there’s something for everyone. Nature lovers can explore breathtaking spots like Zhangjiajie and Jiuzhaigou Valley, while food enthusiasts can indulge in authentic Chinese cuisine. The country’s rich traditions, friendly locals, and unique experiences make it a must-visit destination. Whether you’re seeking adventure, history, or relaxation, China has it all!",
+    desc: "Manila, the vibrant capital of the Philippines, blends Spanish colonial charm with modern energy. Explore historic Intramuros, bustling markets, and vibrant nightlife. Enjoy Filipino cuisine, warm hospitality, and easy access to tropical islands like Palawan and Boracay. Manila is a gateway to adventure and culture.",
   },
   {
     src: "/images/Rwanda.jpg",
     title: "Rwanda",
-    desc: "Rwanda is a fascinating destination that offers a perfect blend of ancient history, vibrant culture, and stunning landscapes. From iconic landmarks like the Great Wall and the Forbidden City to modern cities like Shanghai, there’s something for everyone. Nature lovers can explore breathtaking spots like Zhangjiajie and Jiuzhaigou Valley, while food enthusiasts can indulge in authentic Chinese cuisine. The country’s rich traditions, friendly locals, and unique experiences make it a must-visit destination. Whether you’re seeking adventure, history, or relaxation, China has it all!",
+    desc: "Rwanda is a land of breathtaking natural beauty and inspiring resilience. Known as the 'Land of a Thousand Hills,' it offers stunning scenery, lush rainforests, and the rare opportunity to see mountain gorillas in the wild. Kigali, the capital, is safe, clean, and culturally rich — perfect for travelers seeking both peace and adventure.",
   },
 ];
 
