@@ -27,14 +27,17 @@ export default function Footer() {
             <p className="footer-subtitle">Talk to us or Follow us on</p>
             <p className="footer-subtitle2">these Social media Platform</p>
             <div className="footer-icons">
-              <a href="#" aria-label="Instagram">
+              <a
+                href="https://www.instagram.com/moktravel?igsh=eTU4YXJ6c3J3Y2lu"
+                aria-label="Instagram"
+              >
                 <img src="./ig.svg" alt="Instagram" />
               </a>
-              <a href="#" aria-label="Facebook">
+              <a
+                href="https://web.facebook.com/profile.php?id=61571981116611&sk=about"
+                aria-label="Facebook"
+              >
                 <img src="./Facebook.svg" alt="Facebook" />
-              </a>
-              <a href="#" aria-label="Twitter">
-                <img src="./whatsapp.svg" alt="Twitter" />
               </a>
             </div>
           </div>
