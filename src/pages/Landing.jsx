@@ -57,7 +57,7 @@ const testimonials = [
     author: "Ngozi Eze",
   },
   {
-    text: "For your tickets booking and hotel reservation, they are very reiable and trustworthy.",
+    text: "For your tickets booking and hotel reservation, they are very reliable and trustworthy.",
     author: "Babatunde Faleye",
   },
   {

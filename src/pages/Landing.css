@@ -83,22 +83,24 @@
 .hero-paragraph {
   font-size: 0.95rem;
   line-height: 1.4rem;
-  width: 142%;
+  width: 129%;
   margin-left: 0;
   margin-bottom: 1rem;
   word-wrap: break-word;
-  margin-left: -160px;
+  margin-left: -104px;
 }
 
 .hero-button {
+  position: relative;
   font-size: 1rem;
-  padding: 0.75rem 1.25rem;
+  padding: 1rem 2.25rem;
   border: none;
   border-radius: 56px;
   background: #007bff;
   color: white;
   cursor: pointer;
   width: 260px;
+  top: 18px;
 }
 
 .certification {
@@ -189,7 +191,7 @@
   text-align: justify;
 }
 
-.carousel-caption h2 {
+.-caption h2 {
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
 }
@@ -197,6 +199,10 @@
 .carousel-caption p {
   font-size: 1rem;
   line-height: 1.6;
+}
+
+.carousel-caption h1 {
+  text-align: justify;
 }
 
 .carousel-btn {
