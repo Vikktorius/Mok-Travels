@@ -9,7 +9,7 @@ const FullNavBar = () => {
   return (
     <header className="navbar">
       <div className="logo-section">
-        <img src="/sg-icon.svg" alt="MOK Travels logo" className="logo" />
+        <img src="./MOK1.png" alt="MOK Travels logo" className="logo" />
       </div>
 
       <button

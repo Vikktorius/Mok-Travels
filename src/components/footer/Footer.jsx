@@ -51,7 +51,7 @@ export default function Footer() {
         {/* Logo and Copyright */}
         <div className="footer-section footer-end">
           <img
-            src="./sg-icon.svg"
+            src="./MOK1.png"
             alt="MOK Travels Logo"
             className="footer-logo"
           />
