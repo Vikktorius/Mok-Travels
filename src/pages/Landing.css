@@ -532,6 +532,18 @@
     object-fit: cover;
     transform: translate(-59px, 116px);
   }
+
+  .modal-box {
+    padding: 32px;
+  }
+
+  .modal-text {
+    font-size: 18px;
+  }
+
+  .call-button {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -644,6 +656,32 @@
   .ticker-image {
     height: 24px;
     margin: 0 6px;
+  }
+
+  .modal-box {
+    padding: 16px;
+    width: 71%;
+    border-radius: 8px;
+    margin-right: -23px;
+  }
+
+  .modal-overlay {
+    transform: translate(477px, -258px);
+  }
+
+  .modal-text {
+    font-size: 15px;
+  }
+
+  .call-button {
+    padding: 10px 16px;
+    font-size: 15px;
+  }
+
+  .close-button {
+    top: 6px;
+    right: 10px;
+    font-size: 22px;
   }
 
   .cert-text p {
@@ -800,16 +838,12 @@
 
 @keyframes bounceIn {
   0% {
+    transform: scale(0.5);
     opacity: 0;
-    transform: scale(0.9);
-  }
-  60% {
-    opacity: 1;
-    transform: scale(1.05);
   }
   100% {
-    opacity: 1;
     transform: scale(1);
+    opacity: 1;
   }
 }
 
@@ -851,4 +885,63 @@
 
 .bounce-in-right {
   animation: bounceInRight 1s ease-out 0.4s forwards;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(6px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 16px;
+  margin-left: -277px;
+}
+
+.modal-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  text-align: center;
+}
+
+.modal-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.call-button {
+  display: inline-block;
+  padding: 12px 20px;
+  width: 100%;
+  background-color: #28a745;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.call-button:hover {
+  background-color: #218838;
+}
+
+.close-button {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
 }

@@ -28,12 +28,12 @@ const carouselData = [
 
   {
     src: "/images/Carribean.jpg",
-    title: "Carribean",
+    title: "Caribbean",
     desc: "The Caribbean is a tropical paradise known for its turquoise waters, white-sand beaches, and laid-back island vibes. Discover diverse cultures, enjoy world-class snorkeling and diving, and dance to the rhythms of calypso and reggae. Ideal for romantic getaways, cruises, and family vacations, the Caribbean is sun-soaked bliss year-round.",
   },
   {
     src: "/images/Mannilla.jpg",
-    title: "Mannilla",
+    title: "Manila",
     desc: "Manila, the vibrant capital of the Philippines, blends Spanish colonial charm with modern energy. Explore historic Intramuros, bustling markets, and vibrant nightlife. Enjoy Filipino cuisine, warm hospitality, and easy access to tropical islands like Palawan and Boracay. Manila is a gateway to adventure and culture.",
   },
   {
@@ -74,6 +74,7 @@ const Landing = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [testimonialIndex, setTestimonialIndex] = useState(0);
   const [featuredIndex, setFeaturedIndex] = useState(0);
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -119,9 +120,34 @@ const Landing = () => {
             industry, using modern information technology, highly skilled and
             competent manpower and efficient Staff.
           </p>
-          <a href="tel:+1 416-631-0435" className="hero-button bounce-in">
-            Talk to us Now ➤
-          </a>
+          <div>
+            <button
+              className="hero-button bounce-in"
+              onClick={() => setIsOpen(true)}
+            >
+              Talk to us Now ➔
+            </button>
+
+            {isOpen && (
+              <div className="modal-overlay">
+                <div className="modal-box">
+                  <p className="modal-text">
+                    Talk to us on this phone number{" "}
+                    <strong>+1 416-631-0435</strong>
+                  </p>
+                  <a href="tel:+14166310435" className="call-button">
+                    Call Us Now
+                  </a>
+                  <button
+                    className="close-button"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    &times;
+                  </button>
+                </div>
+              </div>
+            )}
+          </div>
         </div>
 
         <div className="image-row desktop-only">
